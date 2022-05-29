@@ -189,7 +189,7 @@ func createAllTables(db *sql.DB) {
 func ConfigDB() *sql.DB {
 	const dbName = "lunarResource"
 
-	db, err := sql.Open("mysql", "shamanth:Ilove!ndia33@tcp(127.0.0.1:3306)/")
+	db, err := sql.Open("mysql", "nikhil:Dinku@2001@tcp(127.0.0.1:3306)/")
 	PanicIfErr(err)
 	defer db.Close()
 
@@ -197,7 +197,7 @@ func ConfigDB() *sql.DB {
 	PanicIfErr(err)
 	defer dbms.Close()
 
-	db, err = sql.Open("mysql", "shamanth:Ilove!ndia33@tcp(127.0.0.1:3306)/" + dbName)
+	db, err = sql.Open("mysql", "nikhil:Dinku@2001@tcp(127.0.0.1:3306)/" + dbName)
 	PanicIfErr(err)
 
 	createAllTables(db)
