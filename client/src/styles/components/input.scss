@@ -1,0 +1,30 @@
+$primary-border-color: rgb(0, 136, 255);
+
+.form-input {
+  input {
+    color: white;
+    background: transparent;
+    border: 1px solid $primary-border-color;
+    box-shadow: 0px 0px 10px $primary-border-color inset;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+
+  input:placeholder {
+    color: white;
+  }
+
+  input:focus {
+    color: white;
+    background: transparent;
+    border: 1px solid $primary-border-color;
+    box-shadow: 0px 0px 10px $primary-border-color inset;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+
+  .form-input-required::after {
+    content: " *";
+    color: lightblue;
+  }
+}

@@ -1,0 +1,39 @@
+.faqs-container {
+  width: 100%;
+  max-height: 60vh;
+  overflow-y: scroll;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .faq {
+    margin: 20px 20px;
+    border-radius: 10px;
+
+    .question {
+      font-size: 1.3rem;
+      font-weight: bold;
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      img {
+        filter: invert(100%);
+      }
+    }
+
+    .answer {
+      height: auto;
+    }
+
+    .closed {
+      height: 0px;
+      overflow: hidden;
+    }
+
+    .open {
+      padding: 10px 20px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.info-container {
+  overflow: hidden;
+	height: 100%;
+
+	.tablerows {
+		height: 100%;
+		overflow-y: scroll;
+		border: 1px solid $primary-border-color;
+		box-shadow: 0px 0px 10px $primary-border-color inset;
+		border-radius: 5px;
+		
+		.tuple {
+			color: lightgrey;
+			font-size: 1rem;
+			margin-left: 0px;
+			transition: color 0.2s, font-size 0.2s, margin-left 0.2s;
+		}
+
+		.tuple:hover {
+			color: white;
+			font-size: 1.4rem;
+			margin-left: 10px;
+		}
+	}
+
+	.selected-row {
+		border-radius: 5px;
+		border: 1px solid $primary-border-color;
+		box-shadow: 0px 0px 10px $primary-border-color inset;
+		height: auto;
+		color: white;
+	}
+}

@@ -1,0 +1,7 @@
+Username,Email,Password,Role
+abcd,abcd@gmail.com,abcd123,Admin
+bcde,bcde@gmail.com,abcd123,Customer
+cdef,cdef@gmail.com,abcd123,Customer
+defg,defg@gmail.com,abcd123,Customer
+efgh,efgh@gmail.com,abcd123,Customer
+fghi,fghi@gmail.com,abcd123,Customer
